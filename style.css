@@ -1,0 +1,445 @@
+*body{
+    overflow: hidden;
+}
+
+.top-bar{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    height: 60px;
+    background-color:#254099;
+    color: white;
+}
+.country{
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    right: 10px;
+    font-size: 12px;
+    font-weight: 200;
+    top: 10px;
+
+}
+
+.dropdown-icon{
+    width: 18px;
+    height: 18px;
+    background: none;
+    position: relative;
+    top: 12px;
+}
+.time-no{font-size: 12px;
+    font-weight: 200px;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+.working-hours{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+    font-weight: 200;
+   
+    
+}
+.clock-icon{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 12px;
+    right: 10px;
+}   
+.contact-no{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.phone-icon{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 12px;
+    right: 10px;
+}
+.email{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 200;
+    float: centre;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    
+}
+.mail-icon{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 12px;
+    left: 15px;
+}
+.sm-icons{width: 400px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly ;
+    padding-top: 10px;
+    position: relative;
+    top: 10px;
+    left: 90px;
+}
+.icons{
+    width: 18px;
+    height: 18px;
+}
+.logo{width: 150px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    color: #4359a1;
+    font-weight: bolder;
+    
+}
+.menu-bar ul{
+    display: flex;
+    float: right;
+    position: absolute;
+    right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    
+}
+.menu-bar ul li{
+    padding: 20px;
+    list-style: none;
+}    
+.search-btn{
+    
+    border: none;
+    background: transparent;
+}
+.search-icon{
+    width: 15px;
+    height: 15px;
+    
+}
+.cart-btn{border: none;
+    background: transparent;
+    
+}
+.showcase{width: 100%;
+    min-height: 650px;
+    background-image: url('showcase-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.welcome-section{position: absolute;
+    top: 300px;
+    left: 20px;
+}  
+.welcome-section h2{
+    color: rgb(61, 61, 112);
+}
+.welcome-section h1{
+    color: black;
+}
+
+.learnmore-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: white;
+    margin: 10px;
+    position: relative;
+    right: 10px;
+   
+
+}
+.contactus-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #4359a1;
+    margin: 10px;
+    position: relative;
+    right:10px;
+}
+.cards-section{display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.first-card{
+    width: 400px;
+    min-height: 200px;
+    
+
+}
+.second-card{
+    width: 400px;
+    min-height: 200px;
+}
+
+.third-card{
+    width: 400px;
+    min-height: 100px;
+}
+.service-icon{
+    width: 40px;
+    height: 40px;
+
+}
+.image{
+    width: 400px;
+    min-height: 150px;
+}
+.service-image{width: 400px;
+    height: 150px;
+
+}
+.Services2-section{
+    width: 100%;
+    height: 800px;
+
+}
+.Services2-section h1{
+    text-align: center;
+}
+.Services2-section h4{
+    text-align: center;
+}
+.first-row{
+    display: flex;
+    justify-content: space-between;
+}
+.capital-markets{
+    width: 400px;
+    min-height:300px;
+
+}
+
+.insurance{
+    width: 400px;
+    min-height:300px;
+}
+.blockchain{
+    width: 400px;
+    min-height:300px;
+}
+.second-row{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+}
+.Technology-advisory{
+    width: 400px;
+    min-height:300px;
+}
+.Finance-risk{
+    width: 400px;
+    min-height:300px;
+}
+.portfolio-management{
+    width: 400px;
+    min-height:300px;
+}
+.about-us{
+    width: 100%;
+    min-height: 300px;
+}
+.aboutus-image1{
+    width: 400px;
+    min-height: 350px;
+    position: relative;
+    left: 450px;
+}
+.ourimage{
+    width: 400px;
+    height: 350px;
+}
+.about-us h4{
+    text-align: center;
+}
+.about-us h1{
+    text-align: center;
+}
+.our-story{display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 500px;
+}
+
+.story-image{
+    width: 960px;
+    min-height:500px ;
+}
+.storyimage{
+    width: 700px;
+    height: 500px;
+}
+.story{
+    width: 960px;
+    min-height: 500px;
+    padding-left: 20px;
+}
+.story-btn{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.stories{display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 500px;
+}
+.story-list{
+    width: 932px;
+    min-height:500px ;
+
+}
+.story-list ul li{
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.stories-image{
+    width: 960px;
+    min-height:500px ;
+
+}
+.storylist-image{
+    width: 680px;
+    height: 500px;
+}
+.storylist-btn{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.our-cases{
+    width: 100%;
+    min-height: 600px;
+
+}
+.our-cases h1{
+    text-align: center;
+}
+.our-cases h4{
+    text-align: center;
+}
+
+.cases-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 400px;
+}
+.case-images{
+    width: 350px;
+    min-height: 300px;
+}
+.caseimages{
+    width:333px ;
+    height:300px ;
+}
+.success-stories{
+    width: 100%;
+    min-height: 200px;
+
+}
+.success-stories h1,h3{
+    text-align: center;
+}
+.success-stats{
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+
+}
+.box{
+    width: 400px;
+    height: 150px;
+    text-align: center;
+}
+.news{
+    width: 100%;
+    height: 550px;
+
+}
+.news-section{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.news-box{
+    width: 450px;
+    height:400px ;
+    text-align: center;
+}
+.news-image{
+    width: 100%x;
+    height: 250px;
+}
+.news-images{
+    width: 100%;
+    height: 250px;
+}
+.testimonials{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.contact-section{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+}
+.request{
+    width: 930px;
+    height: 500px;
+}
+.contact-form{
+    width: 930px;
+    height: 500px;
+
+}
+
+.bio{border: none;
+    width: 200px;
+    height: 40px;
+    background-color: grey;
+}
+.message{
+    border: none;
+    width: 300px;
+    height: 100px;
+    background-color: grey;
+
+}
+#fieldsets{
+border: none;
+}
+
+
+
